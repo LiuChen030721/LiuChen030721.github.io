@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta content="text/html" name="keywords" http-equiv="Content-Type"  charset="utf-8" />
+
+	<title>我的家乡日照</title>
+	
+	<meta content="日照" name="keywords" />
+	<meta content="日照" name="description" />
+
+	<link rel="stylesheet" type="text/css" href="css/ccc.css">
+	<link rel="stylesheet" type="text/css" href="css/dafeng.css">
+
+</head>
+
+<body>
+	<!--header部分-->
+	<div class="header">
+		<div class="w1000">
+			<p>欢迎来到阳光明媚的日照，享受美食、海滩和风景的旅游之旅！</p>
+		</div>
+		
+	</div>
+	<div class="w1000">
+		<div class="header_bottom">
+
+			<a href="index.html"><img src="images/logo.png" width="300" height="50" alt="" title="日照"></a>
+
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="geographic.html">地理</a></li>
+				<li><a href="scenery.html">风景与美食</a></li>
+				<li><a href="delicacy.html">行政区划</a></li>
+				<li><a href="cultrue.html">文化习俗</a></li>
+				<li><a href="login.html">注册/登录</a></li>
+			</ul>
+		</div>
+
+		
+	</div>
+
+
+<div class="container">
+		
+	
+	<div class="content clearfix">
+
+		<div class="leftbar">
+
+            	<div class="leftnav">
+
+                	<h1>日照老家</h1>
+
+					<ul class="ul_left">
+
+
+						<li><h3><a href="index.html">首页</a></h3></li>
+						<li><h3><a href="geographic.html">地理</a></h3></li>
+						<li><h3><a href="scenery.html">风景</a></h3></li>
+						<li><h3><a href="scenery.html">美食</a></h3></li>
+						<li><h3><a href="cultrue.html">文化习俗</a></h3></li>
+						<li><h3><a href="login.html">注册/登录</a></h3></li>
+					</ul>
+				</div>
+
+
+			<div class="left_lx">
+
+		         <h1>联系方式</h1>
+
+		        <p>班级：计科（春考_校企）21本</p>
+
+		        <p>联系人：刘晨</p>
+
+		    </div>
+		</div>
+
+	<div class="rightbar">
+                
+		<ul class="ul_zj clearfix">
+			
+			
+			<li>日照的地理位置</li>
+			<br>
+			<div class="yuyue_in" id="mapContainer" style="width: 100%; height: 500px;">
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=c5677fe03081e43b7436f37d37bdc6dd"></script>
+    <script type="text/javascript">
+        var map = new AMap.Map('mapContainer');
+        var point = new AMap.LngLat(119.526083, 35.416161);
+        map.setZoomAndCenter(17, point);
+
+        var infoWindow = new AMap.InfoWindow({
+            content: '<h3>日照市政府</h3><p>地址：山东省日照市东港区</p>',
+            offset: new AMap.Pixel(0, -30)
+        });
+
+        infoWindow.open(map, point);
+
+        var marker = new AMap.Marker({
+            position: point,
+            title: '日照市政府'
+        });
+
+        marker.setMap(map);
+    </script>    
+</div><br>
+			</li>
+			
+			
+          <div>
+              <p><span class="con">日照市各区、县、县级市详细街道、镇划分（2019年10月）：</span></p>
+          </div>
+          <span class="con"><br>
+            </span>
+          <div>
+              <p><span class="con">东港区：日照街道、石臼街道、秦楼街道、卧龙山街道、两城街道、河山镇、后村镇、西湖镇、陈疃镇、南湖镇、三庄镇、涛雒镇。</span></p>
+            </div>
+          <span class="con"><br>
+            </span>
+          <div>
+              <p><span class="con">岚山区：岚山头街道、安东卫街道、碑廓镇、虎山镇、巨峰镇、高兴镇、黄墩镇、中楼镇、前三岛乡。</span></p>
+            </div>
+          <span class="con"><br>
+            </span>
+          <div>
+              <p><span class="con">五莲县：洪凝街道、高泽街道、街头镇、潮河镇、许孟镇、于里镇、汪湖镇、叩官镇、中至镇、松柏镇、石场乡、户部乡。</span></p>
+            </div>
+          <span class="con"><br>
+            </span>
+          <div>
+              <p><span class="con">莒县：城阳街道、店子集街道、陵阳街道、浮来山街道、招贤镇、阎庄镇、夏庄镇、刘官庄镇、峤山镇、小店镇、龙山镇、东莞镇、长岭镇、安庄镇、棋山镇、洛河镇、寨里河镇、桑园镇、果庄镇、库山乡、莒县经济开发区。</span></p>
+            </div>
+          <span class="con"><br>
+            </span>
+          <div>
+              <p><span class="con">日照经济技术开发区：奎山街道、北京路街道。</span></p>
+            </div><br>
+	  </ul>
+
+		<div class="paging"></div>
+            	
+	</div>
+</div>
+		
+		
+
+
+	<!--footer部分-->
+
+	<div class="footer">
+		<p>Copyright © 2023 山东女子学院 数据科学与计算机学院 计算机科学与技术 刘晨 </p>
+		<p>图片来源：网络</p>
+	</div>
+
+</body>
+</html>
